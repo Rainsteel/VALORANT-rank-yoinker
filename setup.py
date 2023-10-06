@@ -23,9 +23,9 @@ build_exe_options = {
 }
 
 setup(
-    name = "VALORANT rank yoinker",
+    name = "Custom stat tracker",
     version = version,
-    description='vRY - VALORANT rank yoinker',
-    executables = [Executable("main.py", icon="./assets/Logo.ico", target_name="vry.exe")],
+    description='Stat tracker by veza',
+    executables = [Executable("main.py", icon="./assets/Logo.ico", target_name="ezStats.exe")],
     options={"build_exe": build_exe_options}
 )
