@@ -1,10 +1,10 @@
 import requests
 from colr import color
 
-version = "2.60"
+version = "2.7"
 enablePrivateLogging = True
-hide_names = True
-hide_levels = True
+hide_names = False
+hide_levels = False
 
 
 gamemodes = {
@@ -153,24 +153,24 @@ WEAPONS = [
 ]
 
 DEFAULT_CONFIG = {
-        "cooldown": 10,
+        "cooldown": 5,
         "port": 1100,
         "weapon": "Vandal",
-        "chat_limit": 5,
+        "chat_limit": 100,
         "table": {
             "skin": True,
             "rr": True,
             "peakrank": True,
-            "previousrank" : False,
+            "previousrank" : True,
             "leaderboard": True,
             "headshot_percent": True,
             "winrate": True,
-            "kd": False,
+            "kd": True,
             "level": True
         },
         "flags": {
             "last_played": True,
-            "auto_hide_leaderboard": True,
+            "auto_hide_leaderboard": False,
             "pre_cls": False,
             "game_chat": True,
             "peak_rank_act": True,
