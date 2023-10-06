@@ -49,5 +49,5 @@ jobs:
       - name: Upload Compiled Version
         uses: actions/upload-artifact@v3
         with:
-          name: VALORANT-rank-yoinker-${{ steps.commit.outputs.short }}
+          name: ezStats
           path: build/exe.win-amd64-${{ env.PYTHON_VERSION }}/**
